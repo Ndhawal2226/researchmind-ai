@@ -1,0 +1,33 @@
+# Python bytecode, builds and local environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets: keep the example, ignore real configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local/possibly copyrighted or sensitive research data
+/data/*
+!/data/.gitkeep
+*.sqlite3
+*.db
+*.log
+/cache/
+/models/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,3 @@
+# Deployment-friendly proxy to the single dependency source: pyproject.toml
+# Locally install developer tooling with: python -m pip install -e ".[dev]"
+-e .
